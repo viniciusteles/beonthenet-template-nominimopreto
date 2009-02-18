@@ -98,7 +98,7 @@ th, td {
   float:                  left;
   width:                  240px;
   height:                 240px;
-  margin:                 0 4% 47px 4%;
+  margin:                 0 10px 47px 52px;
   position:               relative;
   -webkit-box-reflect:    below 3px -webkit-gradient(linear, left top, left 200%, from(transparent), color-stop(0.4, transparent), to(white));
 }
@@ -132,10 +132,17 @@ th, td {
 #thumbnails div a {
   display:                table-cell;
   width:                  240px;
-  height:                 242px;
+  height:                 240px;
   vertical-align:         middle;
-  background:#111;
-  -webkit-border-radius:10px;
+  -webkit-border-radius:15px;
+  -moz-border-radius:15px;
+}
+#thumbnails div a:hover {
+  background:#1A1A1A;
+}
+#thumbnails img {
+  display:block;
+  margin:auto;
 }
 
 #thumbnails label {
@@ -153,13 +160,13 @@ th, td {
 body.pictures#index #thumbnails li, 
 body.videos#index #thumbnails li {
   margin:                 0 .45% 47px 0;
-  
   -webkit-box-reflect:    below -35px -webkit-gradient(linear, left top, left 170%, from(transparent), color-stop(0.42, transparent), to(white));  
 }
 
 body.pictures#index #thumbnails div a, 
 body.videos#index #thumbnails div a {
-  vertical-align:         middle;
+  background:none;
+/*  vertical-align:         middle;*/
 }
 
 body.videos #thumbnails img {
