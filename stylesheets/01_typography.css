@@ -1,0 +1,215 @@
+html * {
+  list-style-type:        none;
+  font:                   normal normal normal 1em/1em "Helvetica Neue", Helvetica, "Lucida Grande", Arial, sans-serif;
+  text-decoration:        none;
+}
+
+p, li, dt, dd {
+  line-height:            1.5em;
+}
+
+p, li, dt, dd, td, input, textarea {
+  font-size:              82%;
+}
+
+h1 {
+  font-size:              150%;
+}
+
+h2 {
+  font-size:              130%;
+}
+
+h3 {
+  font-size:              95%;
+}
+
+h4, h4 a {
+  font-weight:            bold;  
+}
+
+h4, label {
+  font-size:              70%;
+}
+
+h5 {
+  font-size:              65%;
+}
+
+h6 {
+  font-size:              60%;
+}
+
+img, #picture_description * {
+  font-style:             italic;
+  font-size:              70%;
+}
+
+
+/* Header */
+#logo_screen {
+  font-size:              180%;
+}
+
+#logo_screen a, #logo_screen img {
+  line-height:            45px;
+}
+
+#logo_screen img {
+  font-style:             normal;
+  font-size:              100%;
+}
+
+#slogan {
+  font-size:              85%;
+}
+
+#header li a {
+  font-weight:            bold;
+  font-size:              90%;
+}
+/* /Header */
+
+
+/* Main content */
+#thumbnails h3 {
+  font-size:              110%;
+}
+
+#thumbnails h4, #thumbnails label {
+  font-size:              85%;
+}
+
+#thumbnails div a, #thumbnails label {
+  text-align:             center;
+}
+
+#thumbnails img {
+  font-size:  90%;
+  
+}
+/* /Main content */
+
+
+/* Subnavigation */
+#subnavigation {
+  text-align:             center;
+}
+#subnavigation a {
+  font-size:              87%;
+  line-height:            28px;
+}
+/* /Subnavigation */
+
+
+/* Summary */
+#go_to_selection {
+  text-align:             right;
+}
+/* /Summary */
+
+
+/* Paging */
+.pages {
+  text-align:             center;
+}
+
+.pages strong {
+  font-weight:            bold;
+  font-size:              130%;
+}
+
+.pages .previous {
+  text-align:             right;
+}
+.pages .next {
+  text-align:             left;
+}
+/* /Paging */
+
+
+/* Data sheet */
+#data_sheet h2 {
+  text-align:             center;
+}
+
+#data_sheet li, #data_sheet dd {
+  font-weight:            bold;
+}
+
+#data_sheet dt {
+  text-align:             right;
+}
+
+#data_sheet a:hover {
+  text-decoration:        underline;
+}
+/* /Data sheet */
+
+
+/* Big picture, big video */
+#big_picture, #big_video {
+  text-align:             center;
+}
+
+#big_picture img, #big_video p {
+  line-height:            8em;
+}
+
+#big_picture a, 
+#big_video a {
+  font-size:              80%;
+}
+
+#big_picture label, #big_video label {
+  font-weight:            bold;
+  font-size:              100%;
+}
+
+#big_picture label {
+  font-size:              300%;
+}
+
+#big_video label span {
+  font-style:             italic;
+  font-size:              70%;
+}
+/* /Big picture, big video */
+
+
+/* Tags */
+#tags a {
+  font-size:              80%;
+  line-height:            1em;
+}
+/* /Tags */
+
+
+/* Selection */
+#selection_size label, #search_result_count label {
+  font-weight:            bold;
+  font-size:              110%;
+}
+/* /Selection */
+
+
+/* Text */
+body.text li {
+  list-style:             disc outside url(../images/bullet.gif);
+}
+
+body.text li ul li {
+  list-style-image:       url(../images/bullet_small.gif);
+}
+/* /Text */
+
+
+/* Footer */
+#footer * {
+  text-align:             center;
+}
+
+#footer a:link {
+  text-decoration:        underline;
+}
+/* /Footer */

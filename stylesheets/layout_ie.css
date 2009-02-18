@@ -1,0 +1,46 @@
+/* Style sheet with conditions for Internet Explorer 6 and 7. */
+
+hr {
+  margin:                 -8px 0 -7px 0;
+}
+
+#thumbnails h4 a {
+  background-image:       url(../images/thumbnail_mask_ie6.png);
+}
+#thumbnails h4 a:hover {
+  background-image:       url(../images/thumbnail_mask_ie6_hover.png);
+}
+
+/* Vertically centering images */
+#thumbnails div a {
+  display:                block;
+}
+#thumbnails span.ie {
+  display:                inline-block;
+  vertical-align:         middle;
+  height:                 100%;
+}
+#thumbnails img {
+  vertical-align:         middle;
+}
+
+
+/* Paging */
+.second {
+  top:                    -100px;
+}
+
+/* Big picture, big video */
+#big_picture label, #big_video label {
+  filter:                 alpha(opacity=50);
+}
+
+/* Selection */
+#all_pictures label, #cart_items label, 
+#selected_pictures label {
+/*  filter:                 alpha(opacity=70);*/
+}
+
+.moved_to_cart {
+/*  filter:                 alpha(opacity=30);*/
+}
