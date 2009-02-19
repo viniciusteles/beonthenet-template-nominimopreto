@@ -134,15 +134,9 @@ th, td {
   width:                  240px;
   height:                 240px;
   vertical-align:         middle;
-  -webkit-border-radius:15px;
-  -moz-border-radius:15px;
-}
-#thumbnails div a:hover {
-  background:#1A1A1A;
-}
-#thumbnails img {
-  display:block;
-  margin:auto;
+  -webkit-border-radius:  15px;
+  -moz-border-radius:     15px;
+  -khtml-border-radius:   15px;
 }
 
 #thumbnails label {
@@ -161,12 +155,6 @@ body.pictures#index #thumbnails li,
 body.videos#index #thumbnails li {
   margin:                 0 .45% 47px 0;
   -webkit-box-reflect:    below -35px -webkit-gradient(linear, left top, left 170%, from(transparent), color-stop(0.42, transparent), to(white));  
-}
-
-body.pictures#index #thumbnails div a, 
-body.videos#index #thumbnails div a {
-  background:none;
-/*  vertical-align:         middle;*/
 }
 
 body.videos #thumbnails img {
@@ -433,9 +421,8 @@ label#phone_number, label#message {
 }
 
 label#message {
-  margin-top:1em;
-  margin-bottom:.75em;
-  
+  float:                  none;
+  margin:                 1em 0 .75em 0;
 }
 
 input, textarea {
@@ -453,11 +440,26 @@ textarea {
 
 
 button {
-  color:red !important;
+  font-size:  80%;
+/*  color:#FFF;*/
   display:block;
   height:28px;
+  background: #111 url(../images/button.gif) repeat-x center bottom;
   margin:1em auto 0 auto;
+padding:0 30px;
+border:1px solid;
+-webkit-border-radius:  4px;
+-moz-border-radius:     4px;
+-khtml-border-radius:   4px;
+  border-color:           #252525;
+  border-top-color:       #1F1F1F;
+  border-bottom-color:    #333;
+text-shadow: #000 0 -1px 0;
 }
+button:hover {
+  color:#FFF;
+}
+
 
 #global_search {
   position:               absolute;

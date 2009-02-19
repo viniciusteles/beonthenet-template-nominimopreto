@@ -76,6 +76,10 @@ th, td {
 #thumbnails h4 a:hover {
   background-image:       url(../images/thumbnail_mask_hover.png);
 }
+
+#thumbnails div a:hover {
+  background:             #1A1A1A;
+}
 /* /Thumbnails */
 
 
