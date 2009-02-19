@@ -30,6 +30,11 @@ hr {
   top:                    -100px;
 }
 
+/* Form */
+.submitting {
+  padding:                0 5px;
+}
+
 /* Big picture, big video */
 #big_picture label, #big_video label {
   filter:                 alpha(opacity=50);

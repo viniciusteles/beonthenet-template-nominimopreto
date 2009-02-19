@@ -273,9 +273,42 @@ ul, dt {
 
 /* Forms */
 input, textarea {
+  color:                  #607995;
   background:             #EEE;
   -webkit-box-shadow:     #000 0 -1px 2px, #FFF 0 1px 1px;
   -moz-box-shadow:        #000 0 -1px 2px, #FFF 0 1px 0;
+}
+
+button {
+  background:             #111 url(../images/button.gif) repeat-x center bottom;
+  border-color:           #252525;
+  border-top-color:       #1F1F1F;
+  border-bottom-color:    #333;
+  text-shadow:            #000 0 -1px 0;
+}
+button:hover {
+  color:                  #FFF;
+}
+button:active {
+  color:                  #939393;
+  background-image:       url(../images/button_active.gif);
+}
+.submitting {
+  background:             #222 url(../images/spinner_form.gif) no-repeat 96% center;
+}
+
+#submit_error {
+  color:                  #C40000;
+}
+
+.email_field_with_errors {
+  color:                  #000;
+  background-color:       #E5A1AA;
+}
+
+#submit_success {
+  color:                  #70B0FF;
+  text-shadow:            #70B0FF 0 0 4px;
 }
 /* /Forms */
 

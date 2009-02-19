@@ -382,42 +382,20 @@ body.text img {
 
 /* Forms */
 form {
-  width:800px;
-  margin:auto;
-/*  border:1px solid gray;*/
+  width:                  800px;
+  margin:                 auto;
 }
 
 form label {
-/*  border: 1px dashed gray;*/
-  width:  8%;
-/*  height:20px;*/
-/*  line-height:20px;*/
-  display:block;
-  float:left;
-/*  clear:both;*/
-text-align:right;
-margin-top:.25em;
-margin-right:1em;
-}
-
-input {
-  float:left;
-/*  display:block;*/
-  width:33%;
-  height:                 18px;
-  padding:                0 5px 0 15px;
-  -webkit-border-radius:  9px;
-  -moz-border-radius:     9px;
-  -khtml-border-radius:   9px;
-/*  margin-top:-1em;*/
-  margin-right: 2em;
-  margin-bottom:1em;
-line-height:20px;
-
+  display:                block;
+  float:                  left;
+  width:                  8%;
+  margin-top:             .25em;
+  margin-right:           1em;
 }
 
 label#phone_number, label#message {
-  clear:left;
+  clear:                  left;
 }
 
 label#message {
@@ -426,47 +404,45 @@ label#message {
 }
 
 input, textarea {
-    color:#607995 !important;
-}
-
-textarea {
-  line-height:1.2em;
-  width:780px;
-  padding:10px;
   -webkit-border-radius:  9px;
   -moz-border-radius:     9px;
   -khtml-border-radius:   9px;
 }
 
+input {
+  float:                  left;
+  width:                  33%;
+  height:                 18px;
+  padding:                0 5px 0 15px;
+  margin-right:           2em;
+  margin-bottom:          1em;
+}
+
+textarea {
+  width:                  780px;
+  padding:                10px;
+}
 
 button {
-  font-size:  80%;
-/*  color:#FFF;*/
-  display:block;
-  height:28px;
-  background: #111 url(../images/button.gif) repeat-x center bottom;
-  margin:1em auto 0 auto;
-padding:0 30px;
-border:1px solid;
--webkit-border-radius:  4px;
--moz-border-radius:     4px;
--khtml-border-radius:   4px;
-  border-color:           #252525;
-  border-top-color:       #1F1F1F;
-  border-bottom-color:    #333;
-text-shadow: #000 0 -1px 0;
-}
-button:hover {
-  color:#FFF;
+  display:                block;
+  height:                 28px;
+  padding:                0 30px;
+  border:                 1px solid;
+  -webkit-border-radius:  4px;
+  -moz-border-radius:     4px;
+  -khtml-border-radius:   4px;
+  margin:                 1em auto 0 auto;
 }
 
+#submit_result {
+  margin-bottom:          1em;
+}
 
 #global_search {
-  position:               absolute;
-/*  top:                    18px;*/
-bottom:18px;
-  right:                  30px;
   width:                  140px;
+  position:               absolute;
+  right:                  30px;
+  bottom:                 18px;
 }
 
 #global_search input {

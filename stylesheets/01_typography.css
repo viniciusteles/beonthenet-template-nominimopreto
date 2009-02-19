@@ -204,6 +204,30 @@ body.text li ul li {
 /* /Text */
 
 
+/* Forms */
+form label {
+  text-align:             right;
+}
+
+input {
+  line-height:            20px;
+}
+
+textarea {
+  line-height:            1.2em;
+}
+
+button {
+  font-size:              80%;
+  line-height:            25px;
+}
+
+#submit_result * {
+  text-align:             center;
+}
+/* /Forms */
+
+
 /* Footer */
 #footer * {
   text-align:             center;
