@@ -418,14 +418,13 @@ padding:0;
 /*margin-left:-180px;*/
 
 text-align:center;
-color:#111;
+color:#000;
 position:relative;
 z-index:2;
 font-size:1px;
 float:right;
-right:420px;
+right:424px;
 /*right:40px;*/
-/*-webkit-transform:rotate(15deg);*/
 }
 
 
@@ -434,16 +433,16 @@ right:420px;
 display:block;
 background:#555;
 /*padding:30px;*/
-line-height:80px;
+line-height:85px;
 text-align:center;
-width:80px;
-height:80px;
+width:84px;
+height:85px;
 font-size:30px;
 /*border:1px solid blue;*/
-background:transparent url(../images/selection_size_temp.png) no-repeat center;
+background:transparent url(../images/selection_size_label.png) no-repeat center;
 }
 
-.go_to_checkou {
+.go_to_checkout {
   clear:both;
 }
 
