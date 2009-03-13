@@ -546,7 +546,14 @@ button {
 body#selection #main_content {
   width:      900px;
   margin:auto;
-  border:1px dotted gray;
+/*  border:                                       1px dotted gray;*/
+position:relative;
+}
+
+.go_to_checkout {
+  position:fixed;
+  top:20px;
+  left:20px;
 }
 
 body.text #main_content {
