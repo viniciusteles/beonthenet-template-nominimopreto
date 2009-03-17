@@ -1,10 +1,16 @@
 /* Style sheet with conditions for Internet Explorer 6. */
 
 #thumbnails h4 a {
-  background-image:       url(../images/thumbnail_mask_ie6.png);
+  background-image:       url(../images/thumbnail_mask_picture_ie6.png);
 }
 #thumbnails h4 a:hover {
-  background-image:       url(../images/thumbnail_mask_ie6_hover.png);
+  background-image:       url(../images/thumbnail_mask_picture_ie6_hover.png);
+}
+.videos #thumbnails h4 a {
+  background-image:       url(../images/thumbnail_mask_video_ie6.png);
+}
+.videos #thumbnails h4 a:hover {
+  background-image:       url(../images/thumbnail_mask_video_ie6_hover.png);
 }
 
 

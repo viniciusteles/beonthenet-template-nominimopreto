@@ -71,10 +71,16 @@ th, td {
 
 /* Thumbnails */
 #thumbnails h4 a {
-  background:             url(../images/thumbnail_mask.png) repeat top center;  
+  background:             url(../images/thumbnail_mask_picture.png) repeat top center;  
 }
 #thumbnails h4 a:hover {
-  background-image:       url(../images/thumbnail_mask_hover.png);
+  background-image:       url(../images/thumbnail_mask_picture_hover.png);
+}
+.videos #thumbnails h4 a {
+  background-image:       url(../images/thumbnail_mask_video.png);
+}
+.videos #thumbnails h4 a:hover {
+  background-image:       url(../images/thumbnail_mask_video_hover.png);
 }
 
 #thumbnails div a:hover {
