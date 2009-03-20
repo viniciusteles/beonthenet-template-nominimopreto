@@ -171,6 +171,7 @@ th, td {
 .videos #thumbnails img {
 position:           relative;
 top:3px;
+left:3px;
 z-index:-1;
   height:                 162px;
 }
