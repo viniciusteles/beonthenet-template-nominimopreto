@@ -28,7 +28,7 @@ h4 a:hover {
   color:                  #70B0FF;
 }
 
-img, #picture_description * {
+#main_content img, #picture_description * {
   background:             #060606 ;
   color:                  #777;
   text-shadow:            #000 0 1px 0;
