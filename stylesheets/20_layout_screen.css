@@ -469,7 +469,7 @@ body.text h2 {
   
 }
 
-body.text img {
+.text #main_content img {
   float:left;
   margin: 0 20px 10px 0;
   border: 1px solid #222;
