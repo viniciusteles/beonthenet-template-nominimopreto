@@ -328,4 +328,14 @@ button:active {
 #footer a:hover {
   color:                  #E0E0E0;
 }
+
+#footer h1, 
+#footer h1 a, #footer h1 a:hover {
+  color:                  #464646;
+}
+
+#footer #beonthenet:hover img, 
+#footer #improveit:hover {
+  color:                  #E0E0E0;
+}
 /* /Footer */

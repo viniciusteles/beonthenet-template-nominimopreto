@@ -233,7 +233,24 @@ button {
   text-align:             center;
 }
 
-#footer a:link {
+#footer a {
   text-decoration:        underline;
+}
+
+#footer h1, #footer h2 {
+  font-size:							75%;
+}
+
+#footer h1 a {
+  text-decoration:        none;
+}
+#footer #beonthenet, 
+#footer #improveit, 
+#footer h2 a {
+  text-decoration:        underline;
+}
+
+#footer h5, #footer h6 {
+  font-size:              70%;
 }
 /* /Footer */
