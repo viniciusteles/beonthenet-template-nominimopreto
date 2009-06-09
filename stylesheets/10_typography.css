@@ -15,9 +15,12 @@ p, li, dt, dd, td, input, textarea {
 h1 {
   font-size:              150%;
 }
-
+#gallery h1, #search h1, 
 h2 {
   font-size:              130%;
+}
+#gallery h1 em, #search h1 em {
+  font-size:              115%;  
 }
 
 h3 {
@@ -48,10 +51,11 @@ img, #picture_description * {
 
 /* Header */
 #logo_screen {
-  font-size:              180%;
+/*  font-size:              200%;*/
 }
 
 #logo_screen a, #logo_screen img {
+  font-size:              220%;
   line-height:            45px;
 }
 
@@ -72,11 +76,11 @@ img, #picture_description * {
 
 
 /* Main content */
-#thumbnails h3 {
+#thumbnails h2 {
   font-size:              110%;
 }
 
-#thumbnails h4, #thumbnails label {
+#thumbnails h3, #thumbnails label {
   font-size:              85%;
 }
 
@@ -98,6 +102,7 @@ img, #picture_description * {
 #subnavigation a {
   font-size:              87%;
   line-height:            28px;
+  text-decoration:        none;
 }
 /* /Subnavigation */
 
@@ -105,6 +110,10 @@ img, #picture_description * {
 /* Summary */
 #go_to_selection {
   text-align:             right;
+}
+
+#see_data_sheet {
+  text-decoration:        none;
 }
 /* /Summary */
 
@@ -237,16 +246,16 @@ button {
   text-decoration:        underline;
 }
 
-#footer h1, #footer h2 {
+#footer h2, #footer h3 {
   font-size:							75%;
 }
 
-#footer h1 a {
+#footer h2 a {
   text-decoration:        none;
 }
 #footer #beonthenet, 
 #footer #improveit, 
-#footer h2 a {
+#footer h3 a {
   text-decoration:        underline;
 }
 
