@@ -74,8 +74,11 @@ th, td {
 
 
 /* Thumbnails */
+#thumbnails h2 {
+  text-shadow:            none;
+}
+
 #thumbnails h3 a {
-  text-shadow:            #000 0 0 2px;
   background:             url(../images/thumbnail_mask_picture.png) repeat top center;  
 }
 #thumbnails h3 a:hover {
@@ -337,6 +340,10 @@ button:active {
 #footer h2, 
 #footer h2 a, #footer h2 a:hover {
   color:                  #464646;
+}
+
+#footer h3 {
+  text-shadow:            #000 0 -1px 1px;
 }
 
 #footer #beonthenet:hover img, 

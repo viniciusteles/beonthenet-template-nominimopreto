@@ -43,3 +43,11 @@ hr {
 .moved_to_cart {
 /*  filter:                 alpha(opacity=30);*/
 }
+
+
+/* RSVP */
+input#message_confirmation_yes {
+  float:              none;
+  margin-left:        0;
+  margin-bottom:      -30px;
+}

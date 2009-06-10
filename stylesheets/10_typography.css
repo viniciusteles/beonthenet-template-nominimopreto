@@ -217,6 +217,10 @@ body.text li ul li {
 form label {
   text-align:             right;
 }
+label#message, 
+label#names_of_guests {
+  text-align:             left;
+}
 
 input {
   line-height:            20px;

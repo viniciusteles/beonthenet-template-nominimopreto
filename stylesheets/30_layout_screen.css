@@ -497,17 +497,7 @@ form label {
   display:                block;
   float:                  left;
   width:                  8%;
-  margin-top:             .25em;
-  margin-right:           1em;
-}
-
-label#phone_number, label#message {
-  clear:                  left;
-}
-
-label#message {
-  float:                  none;
-  margin:                 1em 0 .75em 0;
+  margin:                 5px 1em 0 1em;
 }
 
 input, textarea {
@@ -520,9 +510,37 @@ input {
   float:                  left;
   width:                  33%;
   height:                 18px;
-  padding:                0 5px 0 15px;
-  margin-right:           2em;
-  margin-bottom:          1em;
+  padding:                0 10px;
+  margin:                 5px 0 30px 0;
+}
+
+input.rsvp_confirmation {
+  float:                  left;
+  width:                  auto;
+  height:                 auto;
+  background:             none;
+}
+
+input#message_confirmation_yes {
+  clear:                  both;
+  margin-left:            30%;
+}
+
+input#message_confirmation_no {
+  margin-left:            30px;
+}
+
+label#confirmation_yes, 
+label#confirmation_no {
+  width:                  auto;
+}
+
+label#message, 
+label#names_of_guests {
+  float:                  none;
+  clear:                  both;
+  width:                  auto;
+  margin:                 1em 0 .75em 0;
 }
 
 textarea {
