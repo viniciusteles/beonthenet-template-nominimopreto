@@ -550,6 +550,7 @@ textarea {
 
 button {
   display:                block;
+  clear:                  both;
   height:                 28px;
   padding:                0 30px;
   border-width:           1px;
