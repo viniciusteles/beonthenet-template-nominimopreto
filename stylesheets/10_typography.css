@@ -203,12 +203,16 @@ img, #picture_description * {
 
 
 /* Text */
-body.text li {
+.text li {
   list-style:             disc outside url(../images/bullet.gif);
 }
 
-body.text li ul li {
+.text li ul li {
   list-style-image:       url(../images/bullet_small.gif);
+}
+
+.text #main_content p a {
+  text-decoration:        underline;
 }
 /* /Text */
 
