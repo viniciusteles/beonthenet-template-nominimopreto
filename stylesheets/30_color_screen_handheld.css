@@ -99,7 +99,7 @@ th, td {
 
 
 /* Subnavigation */
-#subnavigation a, #see_data_sheet, #go_to_selection a {
+#subnavigation a, #see_data_sheet, #go_to_selection a, #facebox a {
   background:             url(../images/button_small.gif) repeat-x center top;
   border-color:           #252525;
   border-top-color:       #1F1F1F;
