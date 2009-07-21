@@ -316,6 +316,9 @@ body#gallery #go_to_selection {
 /* Big picture, big video */
 #big_picture, #big_video {
   width:                  800px;
+  min-height:             140px;
+  height:                 auto !important;
+  height:                 140px;
   margin:                 auto;
   position:               relative;
 }
@@ -324,7 +327,7 @@ body#gallery #go_to_selection {
 #big_video a {
   width:                  60px;
   position:               absolute;
-  top:                    120px;
+  top:                    70px;
 }
 #previous {
   left:                   -60px;
