@@ -16,11 +16,11 @@ h1 {
 }
 #gallery h1, #search h1, 
 h2 {
-  color:                  #FFF;
+/*  color:                  #FFF;*/
   text-shadow:            #000 0 -1px 1px;
 }
 #gallery h1 em, #search h1 em {
-  color:                  #607995;
+  color:                  #FFF;
   text-shadow:            #000 0 -1px 1px;
 }
 
@@ -40,6 +40,10 @@ h4 a:hover {
 
 th, td {
   border-color:           #222;
+}
+
+em {
+  color:                  #bfa169;
 }
 
 
@@ -99,7 +103,7 @@ th, td {
 
 
 /* Subnavigation */
-#subnavigation a, #see_data_sheet, #go_to_selection a, #facebox a {
+#subnavigation a, #see_data_sheet, #go_to_selection, #facebox a {
   background:             url(../images/button_small.gif) repeat-x center top;
   border-color:           #252525;
   border-top-color:       #1F1F1F;
@@ -280,12 +284,14 @@ th, td {
 
 
 /* Text */
-ul, dt {
-  color:#C08E30;
-}
-
+.text #main_content h3, 
 .text #main_content p a:hover {
   color:                  #70B0FF;
+}
+
+code {
+  color:                  #FFF;
+  background:             #222;
 }
 /* /Text */
 

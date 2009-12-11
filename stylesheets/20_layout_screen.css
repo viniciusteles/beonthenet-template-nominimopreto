@@ -24,10 +24,6 @@ h1, h2, h3, h4, h5, h6, p {
   padding:                .75em 0 .25em 0;
 }
 
-h1, body.pictures h2 {
-  display:                inline;
-}
-
 p {
   padding:                 1em 0 .5em 0;
 }
@@ -95,14 +91,20 @@ th, td {
 
 #thumbnails li {
   float:                  left;
-  width:                  240px;
+/*  min-width:              240px;*/
+/*  width:auto;*/
+/*  width:                  240px;*/
+/*max-width:                300px;*/
   height:                 240px;
   margin:                 0 10px 47px 52px;
+  margin:                 0 1% 47px 4%;
   position:               relative;
   -webkit-box-reflect:    below 3px -webkit-gradient(linear, left top, left 200%, from(transparent), color-stop(0.4, transparent), to(white));
 }
 
 #thumbnails li.empty {
+  float:none;
+  outline:1px dotted red;
   clear:                  both;
   height:                 0 !important;
 }
@@ -183,7 +185,7 @@ z-index:-1;
   margin:                 -1.85em 0 .1em 0;
 }
 
-#subnavigation a, #see_data_sheet, #go_to_selection a, #facebox a {
+#subnavigation a, #see_data_sheet, #go_to_selection, #facebox a {
   padding:                2px 10px;
   border-width:           1px;
   border-style:           solid;
@@ -211,7 +213,7 @@ z-index:-1;
   margin:                 20px auto;
 }
 
-#summary #see_data_sheet, #go_to_selection a {
+#summary #see_data_sheet, #go_to_selection {
   margin:                 0;
 }
 
@@ -531,16 +533,36 @@ background:transparent url(../images/selection_size_label.png) no-repeat center;
 
 
 /* Text */
-body.text h2 {
-  
-}
-
 .text #main_content img {
   float:left;
   margin: 0 20px 10px 0;
   border-width:           1px;
   border-style:           solid;
   border-color:           #222;
+}
+
+.text #main_content ul, 
+.text #main_content ol, 
+.text #main_content dl {
+/*  outline:                1px dotted gray;*/
+  margin-left:            40px;
+  margin-right:           40px;
+}
+
+.text #main_content li {
+  margin-bottom:      .5em;
+}
+
+.text #main_content li p {
+  padding-top:        0em;
+  padding-bottom:     .5em;
+/*  outline:1px dotted #222;*/
+}
+
+code {
+  padding:          0 2px;
+  -webkit-border-radius:  3px;
+  font-family:    "Monaco", "Courier", monospace;
 }
 /* /Text */
 

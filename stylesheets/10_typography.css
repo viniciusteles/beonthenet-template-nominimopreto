@@ -8,9 +8,21 @@ p, li, dt, dd {
   line-height:            1.5em;
 }
 
-p, li, dt, dd, td, input, textarea {
+em {
+  font-style:             italic;
+}
+
+p {
+  font-size:              87%;
+}
+
+li, dt, dd, td, input, textarea {
   font-size:              82%;
 }
+li li, li p, dd li, dd p {
+  font-size:              100%;
+}
+
 
 h1 {
   font-size:              150%;
@@ -20,7 +32,8 @@ h2 {
   font-size:              130%;
 }
 #gallery h1 em, #search h1 em {
-  font-size:              115%;  
+  font-style:             normal;
+  font-size:              115%;
 }
 
 h3 {
@@ -65,6 +78,7 @@ img, #picture_description * {
 }
 
 #slogan {
+  font-style:             normal;
   font-size:              85%;
 }
 
@@ -203,11 +217,17 @@ img, #picture_description * {
 
 
 /* Text */
+.text #main_content h3 {
+  font-size:              90%;
+  text-transform:         uppercase;
+  color:#70B0FF !important;
+}
+
 .text li {
   list-style:             disc outside url(../images/bullet.gif);
 }
 
-.text li ul li {
+.text li li {
   list-style-image:       url(../images/bullet_small.gif);
 }
 
