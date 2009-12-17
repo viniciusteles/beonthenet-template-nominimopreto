@@ -49,7 +49,7 @@ em {
 
 /* Header */
 #header {
-  background:             url(../images/header_shading.png) repeat-x bottom;
+  background:             url(../images/header_shading.png) repeat-x center bottom;
   border-top-color:       #616161;
   border-bottom-color:    #1F1F1F;
 }
@@ -103,7 +103,7 @@ em {
 
 
 /* Subnavigation */
-#subnavigation a, #see_data_sheet, #go_to_selection, #facebox a {
+#subnavigation a, #see_data_sheet, #go_to_selection a, #facebox a {
   background:             url(../images/button_small.gif) repeat-x center top;
   border-color:           #252525;
   border-top-color:       #1F1F1F;
@@ -144,7 +144,7 @@ em {
 .pages .previous:hover,
 .pages .next:hover {
   color:                  #FFF;
-  background:             url(../images/button_small.gif) repeat-x center;
+  background:             url(../images/button_small.gif) repeat-x center center;
   text-shadow:            #222 0 -1px 1px;
 }
 .pages a:active, 
@@ -161,7 +161,7 @@ em {
 
 .pages .previous span, 
 .pages .next span {
-  background:             transparent url(../images/arrow_left.gif) no-repeat center;
+  background:             transparent url(../images/arrow_left.gif) no-repeat center center;
 }
 .pages .next span {
   background-image:       url(../images/arrow_right.gif);
@@ -226,7 +226,7 @@ em {
 
 /* Big picture, big video */
 #previous span, #next span {
-  background:             transparent url(../images/arrow_previous.png) no-repeat center;
+  background:             transparent url(../images/arrow_previous.png) no-repeat center center;
 }
 #next span {
   background-image:       url(../images/arrow_next.png);

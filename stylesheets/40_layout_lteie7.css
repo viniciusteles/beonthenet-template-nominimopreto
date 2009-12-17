@@ -1,9 +1,14 @@
 /* Style sheet with conditions for Internet Explorer 7 and below. */
 
 hr {
-  margin:                 -8px 0 -7px 0;s
+  margin:                 -8px 0 -7px 0;
 }
 
+/* zoom e display:inline tornam possível inline-block em elementos que nativamente são block. */
+#thumbnails li {
+  display:                inline;
+  zoom:                   1;
+}
 
 /* Vertically centering images */
 #thumbnails div a {
@@ -14,10 +19,6 @@ hr {
   vertical-align:         middle;
   height:                 100%;
 }
-#thumbnails img {
-  vertical-align:         middle;
-}
-
 
 /* Paging */
 .second {
@@ -43,7 +44,6 @@ hr {
 .moved_to_cart {
 /*  filter:                 alpha(opacity=30);*/
 }
-
 
 /* RSVP */
 input#message_confirmation_yes {

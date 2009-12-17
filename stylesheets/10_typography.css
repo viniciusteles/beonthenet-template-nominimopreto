@@ -122,6 +122,10 @@ img, #picture_description * {
 
 
 /* Summary */
+#summary a {
+  font-size:              90%;
+}
+
 #go_to_selection {
   text-align:             right;
 }
