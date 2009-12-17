@@ -90,6 +90,10 @@ img, #picture_description * {
 
 
 /* Main content */
+#thumbnails h2, #thumbnails h3 {
+  text-align:             left;
+}
+
 #thumbnails h2 {
   font-size:              110%;
 }
@@ -146,6 +150,9 @@ img, #picture_description * {
   font-size:              130%;
 }
 
+.pages .previous, .pages .next {
+  font-size:              95%;
+}
 .pages .previous {
   text-align:             right;
 }

@@ -117,7 +117,7 @@ th, td {
   margin:             0 2% 47px;
   position:               relative;
   -webkit-box-reflect:    below 3px -webkit-gradient(linear, left top, left 200%, from(transparent), color-stop(0.4, transparent), to(white));
-/*outline:1px dotted gray;*/
+/*border:1px dotted gray;*/
 }
 
 #thumbnails li.empty {
@@ -138,15 +138,16 @@ th, td {
   position:               absolute;
 }
 
+#thumbnails h2 {
+  top:                    225px;
+  left:                   0;
+  z-index:                1;
+}
+
 #thumbnails h3 a {
   display:                block;
   padding:                210px 40px 20px 40px;
   top:                    0;
-}
-
-#thumbnails h2 {
-  top:                    225px;
-  z-index:                1;
 }
 
 #thumbnails div a {
@@ -178,7 +179,8 @@ th, td {
 /* Pictures and videos index */
 .pictures#index #thumbnails li, 
 .videos#index #thumbnails li {
-  margin:                 0 .45% 47px 0;
+  margin-right:           0;
+  margin-left:            0;
   -webkit-box-reflect:    below -35px -webkit-gradient(linear, left top, left 170%, from(transparent), color-stop(0.42, transparent), to(white));  
 }
 
@@ -264,11 +266,11 @@ body#gallery #go_to_selection {
 
 /* Paging */
 .pages {
-  width:                  650px;
-  padding:                0 75px;
+  width:                  630px;
+  padding:                0 85px;
   border-width:           0 0 1px;
   border-style:           solid;
-  margin:                 2em auto .5em auto;
+  margin:                 2em auto .5em;
   clear:                  both;
   position:               relative;
 }
@@ -543,7 +545,7 @@ background:transparent url(../images/selection_size_label.png) no-repeat center;
   display:block;
   margin: auto;
   border: 1px solid #333;
-  padding:      5px;
+  padding:      2px 5px 5px;
   -webkit-border-radius:  5px;
   -moz-border-radius:     5px;
   background:         #060606;
@@ -555,12 +557,13 @@ background:transparent url(../images/selection_size_label.png) no-repeat center;
 
 #facebox a {
   font-size:      70%;
-  position:   relative;
+  margin:0;
+/*  position:   relative;*/
 }
 
 #facebox img {
   display:      block;
-  margin-top:   -20px;                          /* Isso dá conflito com o #facebox a na hora do spinner. Melhorar isso. */
+  margin-top:   5px;
 }
 /* /Facebox */
 
