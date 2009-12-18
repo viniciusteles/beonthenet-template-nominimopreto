@@ -431,30 +431,44 @@ body#gallery #go_to_selection {
 
 /* Selection */
 #all_pictures, #cart_items {
+  width:    395px;
   padding:0;
   margin:0;
 }
 
 #all_pictures {
-  width:395px;
   float:left;
-  padding-right:39px;
 }
 
 #cart_items {
-  width:316px;
-  margin-left:435px;
-  padding-left:40px;
+  min-height: 480px;
+  height:     auto !important;
+  height:     480px;
+  /* margin-left e padding-left têm que somar 508px. 505px no IE6. */
+  padding-left:59px;
+  margin-left:  446px;
+  margin-right:-4px;
   border-width:           0 0 0 1px;
   border-style:           solid;
-  border-color:           #222;
+  border-color:           #222; 
+}
+html > body #cart_items {
+  margin-left:  449px;
+}
+
+#selection .instructions {
+  background:   url(../images/selection_instructions.jpg) no-repeat left top;
+  border:       none;
+  margin-left:  406px;
+}
+html > body#selection .instructions {
+  margin-left:  409px;
 }
 
 #all_pictures li, #cart_items li {
   float:left;
   position:relative;
   margin:0 4px 4px 0;
-/*  border:1px dotted red;*/
 }
 
 #all_pictures li.emtpy, #cart_items li.empty {
@@ -488,43 +502,44 @@ clear:both;
   -moz-border-radius:     7px;
 }
 
-#selection_size {
-  font-family: Arial, sans-serif;
-/*border:1px dotted gray;*/
-padding:0;
-/*margin-left:;*/
-/*display:block;*/
-/*margin-left:-180px;*/
 
-text-align:center;
-color:#000;
-position:relative;
-z-index:2;
-font-size:1px;
-float:right;
-right:424px;
-/*right:40px;*/
+#selection_size {
+  font-size:          1px;
+  font-family:        Arial, sans-serif;
+  text-align:         center;
+
+  width:              86px;
+  height:             85px;
+  padding:            0;
+  margin-top:         23px;
+  position:           absolute;
+  right:              436px;
+  z-index:            2;
+
+  color:              #000;
 }
 
 
 #selection_size label {
-/*  display:none;*/
-display:block;
-background:#555;
-/*padding:30px;*/
-line-height:85px;
-text-align:center;
-width:84px;
-height:85px;
-font-size:30px;
-position: relative;
-margin:     -15px 0;
-/*border:1px solid blue;*/
-background:transparent url(../images/selection_size_label.png) no-repeat center;
+  font-size:          30px;
+  line-height:        85px;
+  text-align:         center;
+
+  display:            block;
+  width:              84px;
+  height:             85px;
+  margin:             -4px 0;
+
+  background:transparent url(../images/selection_size_label.png) no-repeat center;
 }
 
+
 .go_to_checkout {
-  clear:both;
+  border:             1px solid #555;
+/*  float:right;*/
+/*  position: absolute;*/
+/*  right:0;*/
+/*  clear:both;*/
   display:                                                                                      none !important;
 }
 /* /Selection */
