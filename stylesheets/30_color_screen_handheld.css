@@ -103,7 +103,7 @@ em {
 
 
 /* Subnavigation */
-#subnavigation a, #see_data_sheet, #go_to_selection, #facebox a {
+#subnavigation a, #see_data_sheet, #go_to_selection, #facebox a, .go_to_checkout a {
   background:             url(../images/button_small.gif) repeat-x center top;
   border-color:           #252525;
   border-top-color:       #1F1F1F;

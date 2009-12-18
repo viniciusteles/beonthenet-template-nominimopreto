@@ -210,7 +210,7 @@ z-index:-1;
   margin:                 -1.85em 0 .1em 0;
 }
 
-#subnavigation a, #see_data_sheet, #go_to_selection, #facebox a {
+#subnavigation a, #see_data_sheet, #go_to_selection, #facebox a, .go_to_checkout a {
   padding:                2px 10px;
   border-width:           1px;
   border-style:           solid;
@@ -440,6 +440,11 @@ body#gallery #go_to_selection {
   float:left;
 }
 
+#selected_pictures {
+/*  width: 948px;*/
+/*  outline:              1px dotted gray;*/
+}
+
 #cart_items {
   min-height: 480px;
   height:     auto !important;
@@ -465,13 +470,14 @@ html > body#selection .instructions {
   margin-left:  409px;
 }
 
-#all_pictures li, #cart_items li {
+#all_pictures li, #cart_items li, #selected_pictures li {
   float:left;
   position:relative;
   margin:0 4px 4px 0;
+/*  outline:1px dotted red;*/
 }
 
-#all_pictures li.emtpy, #cart_items li.empty {
+#all_pictures li.emtpy, #cart_items li.empty, #selected_pictures li.empty {
 float:none;
 clear:both;
 }
@@ -481,7 +487,8 @@ clear:both;
 }
 
 #all_pictures label, #all_pictures a, 
-#cart_items label, #cart_items a {
+#cart_items label, #cart_items a, 
+#selected_pictures label, #selected_pictures a {
   display:        block;
   position:       absolute;
   bottom:         1px;
@@ -489,7 +496,13 @@ clear:both;
   text-shadow:    1px 1px  #000;
 }
 
-#all_pictures a, #cart_items a {
+/* Aperfeiçoar para ficar bem quadradinho. */
+#selected_pictures a.remove_picture {
+  display:inline;
+  position:static;
+}
+
+#all_pictures a, #cart_items a, #selected_pictures a {
   right:          auto;
   left:           1px;
   background:     #000;
@@ -502,8 +515,7 @@ clear:both;
   -moz-border-radius:     7px;
 }
 
-
-#selection_size {
+#selection #selection_size {
   font-size:          1px;
   font-family:        Arial, sans-serif;
   text-align:         center;
@@ -519,8 +531,7 @@ clear:both;
   color:              #000;
 }
 
-
-#selection_size label {
+#selection #selection_size label {
   font-size:          30px;
   line-height:        85px;
   text-align:         center;
@@ -535,12 +546,14 @@ clear:both;
 
 
 .go_to_checkout {
-  border:             1px solid #555;
+/*  border:             1px solid #555;*/
 /*  float:right;*/
-/*  position: absolute;*/
-/*  right:0;*/
+  height:   0;
+  position: absolute;
+  right:0;
+/*  top:0;*/
 /*  clear:both;*/
-  display:                                                                                      none !important;
+/*  display:                                                                                      none !important;*/
 }
 /* /Selection */
 
@@ -738,7 +751,8 @@ button {
 
 
 /* Section specificities */
-body#selection #main_content {
+#selection #main_content, 
+#checkout #main_content {
   width:      900px;
   margin:auto;
 /*  border:                                       1px dotted gray;*/
