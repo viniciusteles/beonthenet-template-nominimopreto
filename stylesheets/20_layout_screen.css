@@ -544,16 +544,38 @@ clear:both;
   background:transparent url(../images/selection_size_label.png) no-repeat center;
 }
 
+#facebox {
+  display:none !important;
+}
+
 
 .go_to_checkout {
-/*  border:             1px solid #555;*/
+  border:             1px solid #555;
 /*  float:right;*/
-  height:   0;
-  position: absolute;
-  right:0;
+/*  height:   0;*/
+  padding:0;
+
+  text-align:right;
+
+/*  margin:0 !important;*/
 /*  top:0;*/
-/*  clear:both;*/
+  clear:both;
 /*  display:                                                                                      none !important;*/
+}
+.go_to_checkout a {
+  margin:0;
+}
+
+#first.go_to_checkout {
+/*  top:  57px;*/
+/*  position: absolute;*/
+/*  right:30px;*/
+  margin: -2em 0 2em 0;
+}
+#second.go_to_checkout {
+/*  margin-bottom:50px;*/
+/*  position:static;*/
+/*  outline:1px dotted red;*/
 }
 /* /Selection */
 
@@ -757,12 +779,6 @@ button {
   margin:auto;
 /*  border:                                       1px dotted gray;*/
 position:relative;
-}
-
-.go_to_checkout {
-/*  position:fixed;*/
-/*  top:20px;*/
-/*  left:20px;*/
 }
 
 body.text #main_content {
