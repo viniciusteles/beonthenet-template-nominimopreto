@@ -195,13 +195,13 @@ th, td {
 }
 
 .videos #thumbnails img {
-position:           relative;
-top:3px;
-/*left:3px;*/
-z-index:-1;
-/*  height:                 192px;*/
-    height:                 165px;
-/*  outline: 1px dotted red;*/
+  max-width:          288px;
+/*  height:             192px;*/
+  height:             165px;
+  position:           relative;
+  top:                3px;
+/*  left:       3px;*/
+  z-index:            -1;
 }
 /* /Pictures and videos index */
 
