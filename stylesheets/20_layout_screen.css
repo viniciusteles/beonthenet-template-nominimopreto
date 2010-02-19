@@ -85,6 +85,10 @@ th, td {
   padding:                30px;
 }
 
+#picture #main_content, #video #main_content {
+  padding:                30px 0;
+}
+
 
 #thumbnails {
 /*  margin-right:           -30px;*/
@@ -355,6 +359,7 @@ body#gallery #go_to_selection {
 /* Big picture, big video */
 #big_picture, #big_video {
   width:                  800px;
+  width:                                                          1000px;
   min-height:             140px;
   height:                 auto !important;
   height:                 140px;
@@ -362,23 +367,28 @@ body#gallery #go_to_selection {
   position:               relative;
 }
 
-#big_picture a, 
-#big_video a {
+#previous, #next {
   width:                  60px;
   position:               absolute;
   top:                    70px;
+  top:                                                        -10px;
+  z-index:                1;
 }
 #previous {
   left:                   -60px;
+  left:                                                       60px;
 }
 #next {
   right:                  -60px;
+  right:                                                      60px;
 }
 
 #previous span, #next span {
   display:                block;
   width:                  60px;
+  width:                                                      74px;
   height:                 60px;
+  height:                                                      77px;
   margin-bottom:          -40px;
   position:               relative;
 }
@@ -393,7 +403,14 @@ body#gallery #go_to_selection {
 }
 
 #big_picture img {
+  max-width:              1000px;
   -webkit-box-reflect:    below 5px -webkit-gradient(linear, left top, left 150%, from(transparent), color-stop(0.55, transparent), to(white));
+}
+
+#big_video object {
+  max-width:              1000px;
+  max-height:             563px;
+  margin-bottom:          20px;
 }
 /* /Big picture, big video */
 
@@ -621,6 +638,11 @@ clear:both;
 
 
 /* Text */
+.text #main_content h2, 
+.text #main_content h3 {
+  padding:                1.2em 0 1em;
+}
+
 .text #main_content img {
   float:left;
   margin: 0 20px 10px 0;
@@ -631,10 +653,9 @@ clear:both;
 
 .text #main_content ul, 
 .text #main_content ol, 
-.text #main_content dl {
-/*  outline:                1px dotted gray;*/
-  margin-left:            40px;
-  margin-right:           40px;
+.text #main_content dl, 
+.text #main_content dd {
+  margin:                 10px 40px 30px;
 }
 
 .text #main_content li {
@@ -644,13 +665,18 @@ clear:both;
 .text #main_content li p {
   padding-top:        0em;
   padding-bottom:     .5em;
-/*  outline:1px dotted #222;*/
 }
 
 code {
   padding:          0 2px;
   -webkit-border-radius:  3px;
   font-family:    "Monaco", "Courier", monospace;
+}
+
+#main_content cite, 
+#main_content cite a {
+  display:            block;
+  margin:             -5px 0 20px;
 }
 /* /Text */
 

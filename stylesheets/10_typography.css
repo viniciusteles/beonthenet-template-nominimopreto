@@ -186,13 +186,18 @@ img, #picture_description * {
   text-align:             center;
 }
 
-#big_picture img, #big_video p {
+#big_picture img {
   line-height:            8em;
 }
 
-#big_picture a, 
 #big_video a {
+  font-size:              120%;
+  text-decoration:        underline;
+}
+
+a#previous, a#next {
   font-size:              80%;
+  color:red;
 }
 
 #big_picture label, #big_video label {
@@ -231,19 +236,42 @@ img, #picture_description * {
 .text #main_content h3 {
   font-size:              90%;
   text-transform:         uppercase;
-  color:#70B0FF !important;
 }
 
-.text li {
+.text ul li {
   list-style:             disc outside url(../images/bullet.gif);
 }
 
-.text li li {
+.text ul li li {
   list-style-image:       url(../images/bullet_small.gif);
+}
+
+.text ol li {
+  list-style:             decimal;
 }
 
 .text #main_content p a {
   text-decoration:        underline;
+}
+
+code {
+  font-family:            "Monaco", "Courier", monospace;
+}
+
+blockquote p {
+  font-style:             italic;
+  text-indent:            2em;
+  text-align:             justify;
+}
+
+#main_content cite, 
+#main_content cite a {
+  font-style:             italic;
+  font-size:              85%;
+  text-align:             center;
+}
+#main_content cite a {
+  font-size:              100%;
 }
 /* /Text */
 

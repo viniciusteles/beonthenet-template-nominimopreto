@@ -4,16 +4,45 @@
   background-image:       url(../images/thumbnail_mask_picture_ie6.png);
 }
 #thumbnails h3 a:hover {
-  background-image:       url(../images/thumbnail_mask_picture_ie6_hover.png);
+  background-image:       url(../images/thumbnail_mask_picture_hover_ie6.png);
 }
 .videos #thumbnails h3 a {
   background-image:       url(../images/thumbnail_mask_video_ie6.png);
 }
 .videos #thumbnails h3 a:hover {
-  background-image:       url(../images/thumbnail_mask_video_ie6_hover.png);
+  background-image:       url(../images/thumbnail_mask_video_hover_ie6.png);
 }
 
 
 #selection_size label {
   background-image:       url(../images/selection_size_label_ie6.png);
+}
+
+
+#big_picture img {
+  width:                  expression(this.width > 1002? "1000px" : true);
+}
+#big_video object {
+  width:                  expression(this.width > 1002? "1000px" : true);
+  height:                 expression(this.height > 565? "563px" : true);
+}
+
+#previous span {
+  background-image:       url(../images/arrow_previous_ie6.png);
+}
+#previous:hover span {
+  background-image:       url(../images/arrow_previous_hover_ie6.png);
+}
+#previous:active span {
+  background-image:       url(../images/arrow_previous_active_ie6.png);
+}
+
+#next span {
+  background-image:       url(../images/arrow_next_ie6.png);
+}
+#next:hover span {
+  background-image:       url(../images/arrow_next_hover_ie6.png);
+}
+#next:active span {
+  background-image:       url(../images/arrow_next_active_ie6.png);
 }
