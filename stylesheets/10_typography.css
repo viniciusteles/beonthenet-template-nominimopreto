@@ -297,7 +297,7 @@ button {
   line-height:            25px;
 }
 
-#submit_result * {
+#submit_error, #submit_success {
   text-align:             center;
 }
 /* /Forms */

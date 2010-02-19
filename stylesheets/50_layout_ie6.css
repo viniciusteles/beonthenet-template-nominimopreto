@@ -14,8 +14,8 @@
 }
 
 
-#selection_size label {
-  background-image:       url(../images/selection_size_label_ie6.png);
+#selection #selection_size label {
+  background-image:       url(../images/selection_size_label_ie6.png?);
 }
 
 
