@@ -233,7 +233,7 @@ em {
 }
 
 #previous span, #next span {
-  background:             transparent url(../images/arrow_previous.png) no-repeat center center;
+  background:             transparent url(../images/arrow_previous.png?1) no-repeat center center;
 }
 #next span {
   background-image:       url(../images/arrow_next.png?1);
