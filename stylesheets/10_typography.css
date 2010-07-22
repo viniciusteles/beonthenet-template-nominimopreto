@@ -267,7 +267,7 @@ blockquote p {
 #main_content cite a {
   font-style:             italic;
   font-size:              85%;
-  text-align:             center;
+/*  text-align:             center;*/
 }
 #main_content cite a {
   font-size:              100%;
