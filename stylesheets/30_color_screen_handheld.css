@@ -77,6 +77,42 @@ em {
 /* /Header */
 
 
+/* Flickr */
+#main_content h5, #main_content #big_picture cite {
+  color:              #BFBFBF;
+}
+#main_content #big_picture cite {
+  background:         #000;
+  border-color:       #252525;
+  border-top-color:   #333;
+  border-bottom-color:#1F1F1F;
+  opacity:            .7;
+}
+
+#main_content h5 a, #big_picture cite a {
+  color:              #E0E0E0;
+}
+#main_content h5 a:hover, #big_picture cite a:hover {
+  color:              #70B0FF;
+  text-shadow:        #70B0FF 0 0 4px;
+}
+
+#thumbnails cite a {
+  background:         transparent url(../images/flickr.png) no-repeat 3px 12px;
+}
+#thumbnails cite a:hover {
+  background-image:   url(../images/flickr_hover.png);
+}
+
+body #footer h6 {
+  color:              #777;
+}
+body #footer h6 em {
+  color:              #555;
+}
+/* /Flickr */
+
+
 /* Thumbnails */
 #thumbnails h2 {
   text-shadow:            none;

@@ -80,6 +80,57 @@ th, td {
 /* /Header */
 
 
+/* Flickr */
+#main_content h5 {
+  padding:            0;
+  margin:             -1.75em 0 2.5em;
+}
+
+#thumbnails cite, #thumbnails cite a {
+  display:            block;
+  width:              20px;
+  height:             22px;  
+}
+#thumbnails cite {
+  position:           absolute;
+  right:              110px;
+  bottom:             -12px;
+  overflow:           hidden;
+}
+#gallery #thumbnails cite, #search #thumbnails cite {
+  bottom:             -30px;
+}
+#thumbnails cite a {
+  padding:            6px 0 0 20px;
+  margin:             0 !important;
+}
+
+#big_picture #view_on_flickr, 
+#big_picture cite a {
+  position:           static;
+}
+
+#main_content #big_picture cite {
+  display:            inline-block;
+  width:              60px;
+  border-width:       1px;
+  border-style:       solid;
+  -webkit-border-radius:  2px;
+  -moz-border-radius:     2px;
+  -khtml-border-radius:   2px;
+  border-radius:          2px;
+  margin:             0;
+  position:           absolute;
+  bottom:             45px;
+  right:              470px;
+}
+
+#main_content #big_picture cite a {
+  display:            inline;  
+}
+/* /Flickr */
+
+
 /* Main content */
 #main_content {
   padding:                30px;

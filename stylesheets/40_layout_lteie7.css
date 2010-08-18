@@ -4,6 +4,12 @@ hr {
   margin:                 -8px 0 -7px;
 }
 
+
+#main_content #big_picture cite {
+	filter:             alpha(opacity=70);
+}
+
+
 /* zoom e display:inline tornam possível inline-block em elementos que nativamente são block. */
 #thumbnails li {
   display:                inline;
