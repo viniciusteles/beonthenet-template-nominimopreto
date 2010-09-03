@@ -1,12 +1,18 @@
 /* Style sheet with conditions for Internet Explorer 6. */
 
-/* Flickr */
-#thumbnails cite a, #thumbnails cite a:hover {
-  background-image:   url(../images/flickr_ie6.png);
+/* Flickr e Picasa */
+#thumbnails cite a {
 	filter:             alpha(opacity=30);
 }
 #thumbnails cite a:hover {
   filter:             alpha(opacity=100);
+}
+
+#thumbnails cite.flickr a, #thumbnails cite.flickr a:hover {
+  background-image:   url(../images/flickr_ie6.png);  
+}
+#thumbnails cite.picasa a, #thumbnails cite.picasa a:hover {
+  background-image:   url(http://beonthe.net/accounts/beonthe.net/images/icon_picasa_ie6.png);
 }
 
 #main_content #big_picture cite {
@@ -14,7 +20,7 @@
   top:                0;
   bottom:             auto;
 }
-/* /Flickr */
+/* /Flickr e Picasa */
 
 
 #thumbnails h3 a {
