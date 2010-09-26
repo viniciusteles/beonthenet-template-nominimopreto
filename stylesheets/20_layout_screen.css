@@ -41,41 +41,34 @@ th, td {
 
 /* Header */
 #header {
-  height:                 56px;
-  padding:                0 30px;
+/*  height:                 56px;*/
+  padding:                10px 30px 0;
   border-width:           1px 0;
   border-style:           solid;
   position:               relative;
 }
 
-#logo_print {
-  display:                none;
+#header p, #logo_screen *, #header ul, #header li, #header li a, #header span {
+  display:            inline-block;  
+  vertical-align:     bottom;
 }
 
-#logo_screen, #slogan {
-  padding:                0;
-  position:               absolute;
-  bottom:                 10px;
-  left:                   30px;
-}
-#slogan {
-  bottom:                 5px;
+#header p {
+  padding:            0;
 }
 
-#header ul {
-  position:               absolute;
-  right:                  200px;
-  bottom:                 0;
+#logo_print, #slogan {
+  display:            none;
 }
 
-#header li {
-  display:                inline;
+#logo_screen {
+  display:inline-block;
+  padding-top:        5px;
+  margin-right:       30px;
 }
+
 #header li a {
-  display:                block;
-  float:                  left;
-  height:                 21px;
-  padding:                35px 15px 0 15px;
+  padding:            10px 10px 0;
 }
 /* /Header */
 
@@ -819,8 +812,8 @@ button {
 #global_search {
   width:                  140px;
   position:               absolute;
+  top:                    10px;
   right:                  30px;
-  bottom:                 18px;
 }
 
 #global_search input {

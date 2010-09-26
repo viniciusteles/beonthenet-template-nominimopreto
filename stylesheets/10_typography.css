@@ -85,6 +85,7 @@ img, #picture_description * {
 #header li a {
   font-weight:            bold;
   font-size:              90%;
+  line-height:          30px;
 }
 /* /Header */
 

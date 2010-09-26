@@ -11,9 +11,9 @@ hr {
 
 
 /* zoom e display:inline tornam possível inline-block em elementos que nativamente são block. */
-#thumbnails li {
-  display:                inline;
-  zoom:                   1;
+#header p, #header ul, #header li, #thumbnails li {
+  display:            inline;
+  zoom:               1;
 }
 
 /* Vertically centering images */

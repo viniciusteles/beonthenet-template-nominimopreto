@@ -49,7 +49,7 @@ em {
 
 /* Header */
 #header {
-  background:             url(../images/header_shading.png) repeat-x center bottom;
+  background:             url(../images/header_shading.png) repeat-x center top;
   border-top-color:       #616161;
   border-bottom-color:    #1F1F1F;
 }
