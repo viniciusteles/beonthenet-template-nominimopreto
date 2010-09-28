@@ -41,8 +41,7 @@ th, td {
 
 /* Header */
 #header {
-/*  height:                 56px;*/
-  padding:                10px 30px 0;
+  padding:                10px 30px 5px;
   border-width:           1px 0;
   border-style:           solid;
   position:               relative;
@@ -63,7 +62,6 @@ th, td {
 
 #logo_screen {
   display:inline-block;
-  padding-top:        5px;
   margin-right:       30px;
 }
 
