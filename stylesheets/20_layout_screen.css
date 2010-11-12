@@ -581,12 +581,12 @@ clear:both;
   font-family:        Arial, sans-serif;
   text-align:         center;
 
-  width:              86px;
-  height:             85px;
+  width:              84px;
+  height:             84px;
   padding:            0;
   margin-top:         23px;
   position:           absolute;
-  right:              436px;
+  right:              438px;
   z-index:            2;
 
   color:              #000;
@@ -599,10 +599,10 @@ clear:both;
 
   display:            block;
   width:              84px;
-  height:             85px;
+  height:             87px;
   margin:             -4px 0;
 
-  background:transparent url(../images/selection_size_label.png) no-repeat center;
+  background:transparent url(../images/selection_size_label.png) no-repeat center 3px;
 }
 
 #facebox {
