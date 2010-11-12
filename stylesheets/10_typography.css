@@ -344,6 +344,10 @@ button {
   text-decoration:        underline;
 }
 
+#footer p {
+  font-size:							80%;
+}
+
 #footer h2, #footer h3 {
   font-size:							75%;
 }
