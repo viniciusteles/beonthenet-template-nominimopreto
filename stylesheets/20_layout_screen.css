@@ -579,7 +579,7 @@ clear:both;
 #selection #selection_size {
   font-size:          1px;
   font-family:        Arial, sans-serif;
-  text-align:         center;
+/*  text-align:         center;*/
 
   width:              84px;
   height:             84px;
@@ -624,6 +624,7 @@ clear:both;
 /*  display:                                                                                      none !important;*/
 }
 .go_to_checkout a {
+  display:  inline-block;
   margin:0;
 }
 
@@ -669,13 +670,14 @@ clear:both;
 }
 
 #facebox p {
-  padding:0;
+  padding:        0;
 }
 
 #facebox a {
   font-size:      70%;
-  margin:0;
-/*  position:   relative;*/
+  display:        inline-block;
+  width:          60px;
+  margin:         0 auto;
 }
 
 #facebox img {
