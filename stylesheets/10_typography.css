@@ -134,6 +134,10 @@ body #footer h6 {
   font-size:              85%;
 }
 
+#thumbnails h3 a {
+  text-decoration:        none;
+}
+
 #thumbnails div a, #thumbnails label {
   text-align:             center;
 }
