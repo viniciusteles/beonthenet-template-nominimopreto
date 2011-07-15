@@ -45,10 +45,13 @@ th, td {
 
   display:                block;
   padding:                3px 2px;
+
+  background:             #393939;
 }
 
 #social_network p {
   height:                 16px;
+  padding:                0;
 }
 
 #social_network a {
@@ -63,18 +66,13 @@ th, td {
 #social_network a:first-child:hover {
   opacity:                1;
 }
-
-#header {
-  border-top-left-radius:   3px;
-  border-top-right-radius:  3px;
-}
 /* /Social network */
 
 
 /* Header */
 #header {
   padding:                10px 30px 5px;
-  border-width:           1px 0;
+  border-width:           0 0 1px;
   border-style:           solid;
   position:               relative;
 }
