@@ -295,7 +295,7 @@ body #footer h6 em {
 }
 
 #big_video object {
-  -webkit-mask-box-image: url(../images/big_video_mask.png) 0 stretch;
+/*  -webkit-mask-box-image: url(../images/big_video_mask.png) 0 stretch;*/
 }
 
 #big_picture label, #big_video label {
