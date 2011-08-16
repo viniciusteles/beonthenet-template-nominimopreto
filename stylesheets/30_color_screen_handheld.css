@@ -145,6 +145,29 @@ body #footer h6 em {
 /* /Thumbnails */
 
 
+/* Summary */
+#summary {
+  border-color:           #222;
+  background:             #060606;
+}
+
+#summary a {
+  color:                  #DCAE35;
+}
+#summary a:hover {
+  color:                  #70B0FF;
+  text-shadow:            #70B0FF 0 0 4px;
+}
+
+#summary_links a {
+  color:                  #BFBFBF;
+}
+#summary_links a:hover {
+  color:                  #E0E0E0;
+}
+/* /Summary */
+
+
 /* Subnavigation */
 #subnavigation a, #see_data_sheet, #go_to_selection, #facebox a, .go_to_checkout a {
   background:             url(../images/button_small.gif) repeat-x center top;
@@ -153,19 +176,11 @@ body #footer h6 em {
   border-bottom-color:    #333;
 }
 
-#subnavigation a:active, #summary a:active {
+#subnavigation a:active, #summary_links a:active {
   color:                  #939393;
   background-image:       url(../images/button_small_active.gif);
 }
 /* /Subnavigation */
-
-
-/* Summary */
-#summary {
-  border-color:           #222;
-  background:             #060606;
-}
-/* /Summary */
 
 
 /* Paging */

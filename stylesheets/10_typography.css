@@ -163,7 +163,12 @@ body #footer h6 {
 
 /* Summary */
 #summary a {
+  font-size:              100%;
+  text-decoration:        underline;
+}
+#summary_links a {
   font-size:              90%;
+  text-decoration:        none;
 }
 
 #go_to_selection {
