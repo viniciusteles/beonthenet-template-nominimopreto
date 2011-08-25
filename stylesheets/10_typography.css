@@ -278,6 +278,14 @@ a#previous, a#next {
   text-transform:         uppercase;
 }
 
+.text #main_content strong {
+  font-weight:            bold;
+}
+
+.text #main_content a {
+  text-decoration:        underline;
+}
+
 .text ul li {
   list-style:             disc outside url(../images/bullet.gif);
 }

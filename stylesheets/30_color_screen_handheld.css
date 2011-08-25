@@ -6,10 +6,6 @@ html {
   background:             #000;
 }
 
-a:hover {
-  color:                  #E0E0E0;
-}
-
 h1 {
   color:                  #607995;
   text-shadow:            #000 0 -1px 1px;
@@ -353,8 +349,17 @@ body #footer h6 em {
   color:                  #FFF;
 }
 
+
+.text #main_content a {
+  color:                  #DCAE35;
+}
 .text #main_content h3, 
-.text #main_content p a:hover {
+.text #main_content a:hover {
+  color:                  #70B0FF;
+  text-shadow:            #70B0FF 0 0 4px;
+}
+
+.text #main_content strong {
   color:                  #70B0FF;
 }
 
