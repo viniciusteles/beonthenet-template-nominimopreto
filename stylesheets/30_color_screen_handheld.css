@@ -63,11 +63,14 @@ em {
   color:                  #444;
 }
 
-#header li a:link {
-  color:                  #7C7C7C;
+#header li a {
+  color:                  #BFBFBF;
   text-shadow:            #000 0 -1px 1px;
 }
-#header li a:hover {
+#header li a:visited {
+  color:                  #7C7C7C;
+}
+#header li.current a, #header li a:hover, #header li a:active {
   color:                  #E0E0E0;
 }
 /* /Header */
