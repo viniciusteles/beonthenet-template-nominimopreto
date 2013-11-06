@@ -98,8 +98,8 @@ th, td {
 
 @media screen and (min-width:1024px) {
   .social_media {
-    padding-right:                  60px;
-    padding-left:                   60px;
+    padding-right:                  30px;
+    padding-left:                   30px;
   }
   .social_media section {
     width:                          49.65%;
