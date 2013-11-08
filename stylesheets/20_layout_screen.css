@@ -140,12 +140,17 @@ th, td {
 }
 #big_picture #social_sharing > iframe, #big_picture #social_sharing > div, 
 #big_video #social_sharing > iframe, #big_video #social_sharing > div {
-  margin:                           0 0 20px;
+  margin:                           0 0 17px;
 }
 #big_picture #social_sharing > div:last-child {
-  margin:                           30px 0 0;
+  margin:                           27px 0 0;
+}
+#big_picture #social_sharing div a, #big_video #social_sharing div a {
+  position:                         relative !important;
+  top:                              0;
 }
 /* /Big picture social sharing */
+
 
 
 /* Header */
