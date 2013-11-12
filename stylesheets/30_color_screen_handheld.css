@@ -281,43 +281,6 @@ body #footer h6 em {
 /* /Data sheet */
 
 
-/* Big picture, big video */
-#big_video a {
-  color:                  #FFF;
-}
-#big_video a:hover {
-  color:                  #70B0FF;
-}
-
-#previous span, #next span {
-  background:             transparent url(../images/arrow_previous.png?1) no-repeat center center;
-}
-#next span {
-  background-image:       url(../images/arrow_next.png?1);
-}
-#previous:hover span {
-  background-image:       url(../images/arrow_previous_hover.png?2);
-}
-#previous:active span {
-  background-image:       url(../images/arrow_previous_active.png?2);
-}
-#next:hover span {
-  background-image:       url(../images/arrow_next_hover.png?1);
-}
-#next:active span {
-  background-image:       url(../images/arrow_next_active.png?1);
-}
-
-#big_video object {
-/*  -webkit-mask-box-image: url(../images/big_video_mask.png) 0 stretch;*/
-}
-
-#big_picture label, #big_video label {
-  opacity:                .5;
-}
-/* /Big picture, big video */
-
-
 /* Tags */
 #tags a:hover {
   color:                  #70B0FF;
