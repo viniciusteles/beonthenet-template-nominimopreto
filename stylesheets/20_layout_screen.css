@@ -992,6 +992,26 @@ button {
 /* /Footer */
 
 
+/* Errors */
+.application #main_content ul {
+  margin:                 .75em 0 0;
+}
+
+.application #main_content li {
+  list-style:             disc outside url(../images/bullet.gif);
+  margin-left:            1.2em;
+}
+
+.application #main_content a {
+  text-decoration:        underline;
+  color:                  #DCAE35;
+}
+.application #main_content a:hover {
+  color:                  #70B0FF;
+}
+/* /Errors */
+
+
 /* Section specificities */
 #selection #main_content, 
 #checkout #main_content, 
